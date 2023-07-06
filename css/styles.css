@@ -590,7 +590,14 @@ main{
 
 /* Estilos para pantalla de 320px */
 @media (max-width: 320px) {
-.grid-container{
+html{
+
+
+
+  height: 80vh;
+}
+
+  .grid-container{
   grid-column: 1fr;
   grid-template-rows: 2.1875rem 1fr 2.1875rem ;
   grid-template-areas: 
@@ -726,6 +733,9 @@ p{
   margin: 0rem;
 }
 
+.comidas2{
+  height: 70vh;
+}
 
 
 }
