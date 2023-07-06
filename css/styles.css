@@ -10,16 +10,14 @@
   box-sizing: border-box;
 }
 
-main{
-  width: 100%;
-}
+
 
 
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+
   background-color: #FBC252;
 }
 
@@ -364,6 +362,12 @@ footer a:hover img {
 
 @media (max-width: 768px) {
 
+
+
+body{
+  height: 100%;
+}
+
 a{
   margin-left: none;
 }
@@ -388,11 +392,7 @@ a{
     background-size: cover;
   }
 
-  main{
-    background-color: none;
-    height: 100%;
 
-  }
 
   h1{
     font-size: 1.875rem;
@@ -409,7 +409,8 @@ a{
   grid-template-columns: 1fr;
   grid-template-rows: 20rem ;
   grid-template-areas:
-    " menu-index ."
+    " menu-index .";
+    height: 100vh;
 }
 
 
@@ -481,11 +482,7 @@ main{
     background-size: cover;
   }
 
-  main{
-    background-color: none;
-    height: 100%;
 
-  }
 
   h1{
     font-size: 1.875rem;
