@@ -496,6 +496,10 @@ main{
   display: none;
 }
 
+footer{
+  background-color: transparent;
+}
+
 
 }
 
@@ -736,6 +740,8 @@ p{
 .comidas2{
   height: 70vh;
 }
+
+
 
 
 }
