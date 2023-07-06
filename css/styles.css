@@ -373,7 +373,7 @@ a{
 }
 
  .texto-comida1{
-  width: 50vh;
+  width: 100%;
  }
 .texto-comida1 a {
   font-size: 1.875rem;
@@ -403,6 +403,8 @@ a{
   background-color: none;
   width: 100%;
 }
+
+
 
 .comidas2 {
   display: grid;
