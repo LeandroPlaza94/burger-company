@@ -362,8 +362,19 @@ footer a:hover img {
 
 @media (max-width: 768px) {
 
+  .comidas2 {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    grid-template-areas:
+      " menu-index  menu-index "
+      "menu-index menu-index ";
+
+    ;
+  }
+
 .comidas2{
-  height: 86vh;
+  height: 86%;
 }
 
 body{
