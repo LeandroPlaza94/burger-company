@@ -362,20 +362,18 @@ footer a:hover img {
 
 @media (max-width: 768px) {
 
+
   .comidas2 {
     display: grid;
-    grid-template-columns: none;
-    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15rem 30rem;
     grid-template-areas:
-      " menu-index  menu-index "
-      "menu-index menu-index ";
+      " .  imagenes-index"
+      "menu-index imagenes-index"
+      "menu-index imagenes-index"
+      " footer  footer";
 
-    ;
   }
-
-.comidas2{
-  height: 86%;
-}
 
 body{
   height: 100vh;
@@ -394,6 +392,12 @@ a{
 
 }
 
+.imagenes-index{
+  display: flex;
+  width: 75%;
+  height: 80%;
+
+}
 
 p{
   font-size: .6875rem;
@@ -412,6 +416,19 @@ p{
     background-size: cover;
   }
 
+
+  .comidas2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15rem 30rem;
+    grid-template-areas:
+      " .  imagenes-index"
+      "menu-index imagenes-index"
+      "menu-index imagenes-index"
+;
+height: 100%;
+
+  }
 
 
   h1{
