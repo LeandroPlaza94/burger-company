@@ -53,12 +53,12 @@ a {
 .comidas2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20rem 30rem;
+  grid-template-rows: 15rem 30rem;
   grid-template-areas:
-    " . imagenes-index"
+    " .  imagenes-index"
     "menu-index imagenes-index"
     "menu-index imagenes-index"
-    " . imagenes-index";
+    " .  imagenes-index";
 }
 
 
@@ -373,9 +373,16 @@ a{
 
  .texto-comida1{
   width: 100%;
+
  }
 .texto-comida1 a {
   font-size: 1.875rem;
+
+}
+
+
+p{
+  font-size: .6875rem;
 }
 
 }
@@ -532,7 +539,7 @@ main{
     font-size: .625rem;
     padding-left: 0rem;
     color: black;
-    margin: 1.25rem;
+
   }
 
   h1{
