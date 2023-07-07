@@ -67,6 +67,8 @@ a {
   grid-area: imagenes-index;
   height: 100vh;
   background-color: none;
+    width: 75%;
+  margin-top: 3.125rem;
 }
 
 .menu-index {
@@ -146,8 +148,7 @@ p {
 }
 
 .imagenes-index {
-  width: 75%;
-  margin-top: 3.125rem;
+
 }
 
 .imagenes-comida {
@@ -400,7 +401,12 @@ a{
 }
 
 p{
-  font-size: .6875rem;
+  font-size: .9375rem;
+}
+.agregar-carrito button{
+  padding: 0.25rem 0.5rem;
+
+
 }
 
 }
@@ -419,21 +425,21 @@ p{
 
   .comidas2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15rem 30rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20rem ;
     grid-template-areas:
-      " .  imagenes-index"
-      "menu-index imagenes-index"
-      "menu-index imagenes-index"
-;
-height: 70%;
+      " menu-index .";
 
+
+height: 70%;
   }
 
 
   h1{
     font-size: 1.875rem;
   }
+
+
 .comidas{
   display: flex;
   flex-direction: column;
@@ -443,14 +449,6 @@ height: 70%;
 
 
 
-.comidas2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 20rem ;
-  grid-template-areas:
-    " menu-index .";
-
-}
 
 
 .menu-index a {
@@ -475,12 +473,7 @@ main{
     font-size: 1.5625rem;
   }
 
-  p{
-    font-size: .625rem;
-    padding-left: 0rem;
-    color: black;
-    margin: 1.25rem;
-  }
+
 
   h1{
     font-size: 1.5625rem;
@@ -500,7 +493,6 @@ main{
 footer{
   background-color: transparent;
 }
-
 
 }
 
