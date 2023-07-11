@@ -169,7 +169,7 @@ h2 {
 
 .texto-comida1 {
   grid-area: texto-comida1;
-  height: 12.5rem; 
+  height: 15.625rem; 
   background-color: rgba(200, 198, 198, 0.686);
   display: flex;
   align-items:center;
