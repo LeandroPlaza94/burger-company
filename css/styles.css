@@ -147,9 +147,6 @@ p {
   gap: .3125rem;
 }
 
-.imagenes-index {
-
-}
 
 .imagenes-comida {
   height: 100%;
@@ -364,55 +361,15 @@ footer a:hover img {
 @media (max-width: 768px) {
 
 
-  .comidas2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15rem 30rem;
-    grid-template-areas:
-      " .  imagenes-index"
-      "menu-index imagenes-index"
-      "menu-index imagenes-index"
-      " footer  footer";
-
+  header {
+    justify-content: center;
   }
 
-body{
-  height: 100vh;
-}
+  nav {
+    width: 100%;
+    justify-content: center;
+  }
 
-a{
-  margin-left: none;
-}
-
- .texto-comida1{
-  width: 100%;
-
- }
-.texto-comida1 a {
-  font-size: 1.875rem;
-
-}
-
-.imagenes-index{
-  display: flex;
-  width: 75%;
-  height: 80%;
-
-}
-
-p{
-  font-size: .9375rem;
-}
-.agregar-carrito button{
-  padding: 0.25rem 0.5rem;
-
-
-}
-
-}
-
-/* Estilos para pantalla de 480px */
-@media (max-width: 480px) {
 
   body {
     overflow-x: hidden;
@@ -447,7 +404,9 @@ height: 70%;
   width: 100%;
 }
 
-
+.texto-comida1{
+  width: 100%;
+}
 
 
 
@@ -494,12 +453,11 @@ footer{
   background-color: transparent;
 }
 
+
 }
 
-
-
-/* Estilos para pantalla de 375px */
-@media (max-width: 375px) {
+/* Estilos para pantalla de 480px */
+@media (max-width: 480px) {
 
   body {
     overflow-x: hidden;
@@ -556,10 +514,10 @@ main{
   }
 
   p{
-    font-size: .625rem;
+    font-size: .7813rem;
     padding-left: 0rem;
     color: black;
-    margin: 1.25rem;
+    margin-left: .625rem;
   }
 
   h1{
@@ -567,7 +525,14 @@ main{
   }
 
 
-
+  .agregar-carrito button {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 2.5rem;
+    font-size: 10px;
+  
+  }
 
 
 
@@ -585,154 +550,163 @@ main{
 }
 
 
+
+/* Estilos para pantalla de 375px */
+@media (max-width: 375px) {
+
+  html{
+
+
+
+    height: 80vh;
+  }
+  
+    .grid-container{
+    grid-column: 1fr;
+    grid-template-rows: 2.1875rem 1fr 2.1875rem ;
+    grid-template-areas: 
+    "texto-comda1 imagenes-comida"
+    "texto-comda1 imagenes-comida"
+    "texto-comda1 imagenes-comida";
+  }
+  
+  .comidas{
+    grid-template-rows: 9.375rem 1fr 2.1875rem ;
+  }
+  
+  
+  nav a{
+    font-size: .625rem;
+  }
+  
+    header{
+      grid-area: header;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      width: 100%;
+    }
+  
+  h1{
+    font-size: 1.25rem;
+  }
+  
+  
+    
+  .logo-negocio{
+    width: 1.875rem;
+    height: 1.875rem  ;
+  }
+   .carrito-header{
+    width: 2.5rem;
+    padding: 0rem 0rem;
+   }
+  
+   .carrito-header img{
+    align-items: center;
+    display: flex;
+    margin-left: .625rem;
+  
+   }
+  
+   .titulo{
+    width: 100%;
+   }
+  
+   .carrito-header a{
+    width: 1.25rem;
+    height: 1.25rem;
+   }
+  
+  p{
+    display: flex;
+    text-align: left;
+    padding-right: 0rem;
+    margin-right: .625rem;
+    margin-left: .625rem;
+    color: black;
+  
+  }
+  
+  .texto-comida1{
+    display: flex;
+    flex-direction: column;
+    height: 9.6875rem;
+    width: 100%;
+    padding-top: 0px;
+    margin-right: 0rem;
+  
+    
+  }
+  
+  .texto-comida1 a{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 1.875rem;
+  }
+  
+  
+  .botonera{
+    display: flex;
+    align-items: left;
+    gap: 0.25rem;
+    padding: 0.75rem;
+  
+  }
+  
+  .botonera {
+    font-size: 1.25rem;
+    color: black;
+  }
+  
+  .botonera p {
+    color: black;
+  
+  }
+  
+  
+  .botonera input {
+    width: 1.5625rem;
+    margin-right: .3125rem;
+  }
+  
+  .botones {
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .agregar-carrito {
+    padding-left: 0.5rem;
+    height: 1.25rem;
+  }
+  
+  
+  
+  .agregar-carrito button {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 1.875rem;
+    font-size: 10px;
+  
+  }
+  
+  
+  .botones-index {
+    width: 9.375rem;
+    margin: 0rem;
+  }
+  
+  .comidas2{
+    height: 70vh;
+  }
+  
+
+}
+
+
 /* Estilos para pantalla de 320px */
 @media (max-width: 320px) {
-html{
-
-
-
-  height: 80vh;
-}
-
-  .grid-container{
-  grid-column: 1fr;
-  grid-template-rows: 2.1875rem 1fr 2.1875rem ;
-  grid-template-areas: 
-  "texto-comda1 imagenes-comida"
-  "texto-comda1 imagenes-comida"
-  "texto-comda1 imagenes-comida";
-}
-
-.comidas{
-  grid-template-rows: 9.375rem 1fr 2.1875rem ;
-}
-
-
-nav a{
-  font-size: .625rem;
-}
-
-  header{
-    grid-area: header;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    width: 100%;
-  }
-
-h1{
-  font-size: 1.25rem;
-}
-
-
-  
-.logo-negocio{
-  width: 1.875rem;
-  height: 1.875rem  ;
-}
- .carrito-header{
-  width: 2.5rem;
-  padding: 0rem 0rem;
- }
-
- .carrito-header img{
-  align-items: center;
-  display: flex;
-  margin-left: .625rem;
-
- }
-
- .titulo{
-  width: 100%;
- }
-
- .carrito-header a{
-  width: 1.25rem;
-  height: 1.25rem;
- }
-
-p{
-  display: flex;
-  text-align: left;
-  padding-right: 0rem;
-  margin-right: .625rem;
-  margin-left: .625rem;
-  color: black;
-
-}
-
-.texto-comida1{
-  display: flex;
-  flex-direction: column;
-  height: 9.6875rem;
-  width: 100%;
-  padding-top: 0px;
-  margin-right: 0rem;
-
-  
-}
-
-.texto-comida1 a{
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  font-size: 1.875rem;
-}
-
-
-.botonera{
-  display: flex;
-  align-items: left;
-  gap: 0.25rem;
-  padding: 0.75rem;
-
-}
-
-.botonera {
-  font-size: 1.25rem;
-  color: black;
-}
-
-.botonera p {
-  color: black;
-
-}
-
-
-.botonera input {
-  width: 1.5625rem;
-  margin-right: .3125rem;
-}
-
-.botones {
-  padding: 0.25rem 0.5rem;
-  font-size: 1rem;
-}
-
-.agregar-carrito {
-  padding-left: 0.5rem;
-  height: 1.25rem;
-}
-
-
-
-.agregar-carrito button {
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  height: 1.875rem;
-  font-size: 10px;
-
-}
-
-
-.botones-index {
-  width: 9.375rem;
-  margin: 0rem;
-}
-
-.comidas2{
-  height: 70vh;
-}
 
 
 
