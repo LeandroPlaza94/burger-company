@@ -3,9 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #222222;
+            color: white;
+        }
+
+        .container {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #FFB100;
+        }
+
+        th {
+            color: #FFB100;
+        }
+
+        .table {
+            color: white;
+        }
+
+        .card {
+            background-color: #444444;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .card-title {
+            color: #FFB100;
+        }
+
+        .card-text {
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: #FFB100;
+            border-color: #FFB100;
+        }
+
+        .btn-primary:hover {
+            background-color: #E69100;
+            border-color: #E69100;
+        }
+
+        .btn-danger {
+            background-color: #FF4545;
+            border-color: #FF4545;
+        }
+
+        .btn-danger:hover {
+            background-color: #D32F2F;
+            border-color: #D32F2F;
+        }
+    </style>
 </head>
+<header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="./menu.html">Menú</a>
+        <a href="./bebidas.html">Bebidas</a>
+        <a href="./papas.html">Acompañamientos</a> 
+    </nav>
+</header>
 <body>
-    <!-- Aqui iria una pagina de carrito pero decidí que va a ser una ventana flotante en las otras paginas -->
+    <div class="container">
+        <h1>Carrito de compras</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Producto 1</td>
+                    <td>$10.00</td>
+                    <td>
+                        <input type="number" class="form-control" value="1">
+                    </td>
+                    <td>$10.00</td>
+                    <td>
+                        <button type="button" class="btn btn-danger btn-sm">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Producto 2</td>
+                    <td>$15.00</td>
+                    <td>
+                        <input type="number" class="form-control" value="1">
+                    </td>
+                    <td>$15.00</td>
+                    <td>
+                        <button type="button" class="btn btn-danger btn-sm">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Resumen del Pedido</h5>
+                <p class="card-text">Total de productos: 2</p>
+                <p class="card-text">Subtotal: $25.00</p>
+                <p class="card-text">Impuestos: $2.50</p>
+                <p class="card-text">Total a pagar: $27.50</p>
+                <a href="#" class="btn btn-primary btn-block">Realizar Pago</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 </html>

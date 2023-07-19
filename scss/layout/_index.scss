@@ -1,0 +1,33 @@
+.imagenes-index {
+	grid-area: imagenes-index;
+	height: 100vh;
+	background-color: $color-naranja;
+	width: 75%;
+	margin-top: 3.125rem;
+}
+
+.comidas2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 20rem 30rem;
+	grid-template-areas: " . imagenes-index"
+		"menu-index imagenes-index"
+		"menu-index imagenes-index"
+		" . imagenes-index";
+	background-color: $color-naranja;
+}
+
+
+.menu-index {
+	grid-area: menu-index;
+	height: 3.125rem;
+	background-color: $color-naranja;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 0.5rem;
+}
+
+a.botones-index {
+	height: 5rem;
+}

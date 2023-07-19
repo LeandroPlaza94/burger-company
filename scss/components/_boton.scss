@@ -1,0 +1,99 @@
+
+.botonera {
+	grid-area: botonera;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.5rem;
+	background-color: $color-gris;
+	border-radius: 5px;
+	border-color: $color-negro;
+}
+
+.agregar-carrito {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding-left: 1rem;
+	border-left: 2px solid $color-negro;
+
+	img {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	button {
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		color: $color-blanco;
+		background-color: $color-amarillo;
+		border: none;
+		padding: 0.75rem 1rem;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 1.875rem;
+
+		&:hover {
+			background-color: $color-naranja;
+		}
+	}
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: $color-blanco;
+    background-color: $color-amarillo;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.875rem;
+
+    &:hover {
+        background-color: $color-naranja;
+    }
+}
+
+
+.botones {
+	padding: 10px 20px;
+	font-size: 1.5rem;
+	background-color: $color-negro;
+	color: $color-blanco;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+
+	&:hover {
+		background-color: $color-amarillo;
+	}
+}
+
+.botones-index {
+	padding: 10px 20px;
+	font-size: 1.5rem;
+	background-color: $color-gris;
+	color: $color-negro;
+	border: none;
+	border-radius: 0.625rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	height: 75%;
+	margin-left: 0.3125rem;
+
+	&:hover {
+		background-color: $color-amarillo;
+	}
+}
