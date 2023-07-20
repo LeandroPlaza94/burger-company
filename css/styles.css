@@ -1,4 +1,3 @@
-/* Definir variables de colores */
 @import "https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto&display=swap";
 * {
   margin: 0;
@@ -353,7 +352,6 @@ button {
   h2 {
     font-size: 20px; } }
 
-/* Estilos para pantalla de 480px */
 @media (max-width: 480px) {
   body {
     overflow-x: hidden;
@@ -410,7 +408,6 @@ button {
   .comidas2 {
     height: 70vh; } }
 
-/* Estilos para pantalla de 375px */
 @media (max-width: 375px) {
   html {
     height: 80vh; }
@@ -494,7 +491,6 @@ button {
   .comidas2 {
     height: 70vh; } }
 
-/* Estilos para pantalla de 320px */
 @media (max-width: 320px) {
   h2 {
     font-size: 1.25rem; } }
