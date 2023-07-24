@@ -1,0 +1,92 @@
+
+body {
+    color: white;
+    background-color: #FFB100;
+}
+
+
+header.header {
+    height: 8.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 0 20px; 
+}
+
+
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: brown;
+}
+
+th {
+    color: #FFB100;
+}
+
+.table {
+    color: white;
+}
+
+.card {
+
+    color: white;
+    margin-top: 20px;
+
+    .card-title {
+        color: #FFB100;
+    }
+    
+    .card-text {
+        color: white;
+    }
+}
+
+
+
+
+.btn-primary {
+    background-color: #FFB100;
+    border-color: #FFB100;
+
+    .btn-primary:hover {
+        background-color: #E69100;
+        border-color: #E69100;
+    }
+}
+
+
+
+.btn-danger {
+    background-color: #FF4545;
+    border-color: #FF4545;
+
+    .btn-danger:hover {
+        background-color: #D32F2F;
+        border-color: #D32F2F;
+    }
+}
+
+
+
+    .redes-sociales {
+    display: flex;
+    align-items: center;
+    width: 14.5rem;
+    height: 1.875rem;
+    margin-top: 0rem;
+    border-radius: 0.3125rem;
+    justify-content: space-between;
+    img{
+        display: flex;
+        align-items: space;
+        margin-left: 1.625rem;
+    }
+}
+
+
