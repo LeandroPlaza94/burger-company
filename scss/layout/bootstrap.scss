@@ -5,14 +5,6 @@ body {
 }
 
 
-header.header {
-    height: 8.5rem; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-    padding: 0 20px; 
-}
 
 
 .container {
@@ -71,7 +63,9 @@ th {
         border-color: #D32F2F;
     }
 }
-
+footer{
+    display: none;
+}
 
 
     .redes-sociales {
@@ -79,7 +73,7 @@ th {
     align-items: center;
     width: 14.5rem;
     height: 1.875rem;
-    margin-top: 0rem;
+    margin-top: 50rem;
     border-radius: 0.3125rem;
     justify-content: space-between;
     img{
