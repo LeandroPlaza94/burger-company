@@ -1,7 +1,7 @@
 
 # Burger Company Website
 
-[![Burger Company](https://i.postimg.cc/rF2hs1xQ/logo-negocio.png "Burger Company")](https://i.postimg.cc/rF2hs1xQ/logo-negocio.png "Burger Company")
+[![Burger Company](https://github.com/LeandroPlaza94/burger-company/blob/main/assets/img/icons/logo-negocio.png "Burger Company")](https://i.postimg.cc/rF2hs1xQ/logo-negocio.png "Burger Company")
 
 Este es el sitio web de Burger Company, un negocio de comida rápida que ofrece deliciosas hamburguesas, acompañamientos y bebidas. Nuestro menú incluye una amplia variedad de opciones para satisfacer todos tus deseos culinarios. Navega a través de las diferentes páginas para descubrir nuestros productos y cómo contactarnos.
 
