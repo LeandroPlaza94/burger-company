@@ -8,19 +8,19 @@ body {
 
 }
 
+h1 {
+	flex-grow: 1;
+	text-align: center;
+	font-family: 'Caprasimo', cursive;
+	font-size: 3.125rem;
+	font-weight: bold;
+	color: $color-marron;
+}
+
 .titulo {
 	display: flex;
 	align-items: center;
 	background-color: $color-amarillo;
-
-	h1 {
-		flex-grow: 1;
-		text-align: center;
-		font-family: 'Caprasimo', cursive;
-		font-size: 3.125rem;
-		font-weight: bold;
-		color: $color-marron;
-	}
 
 
 	.logo-negocio {
@@ -44,16 +44,16 @@ body {
 		padding-left: 0.375rem;
 		margin-right: 0.3125rem;
 	
-		img {
-			display: flex;
-			width: 1.25rem;
-			height: 1.25rem;
-		}
-	
-		&:hover {
-			background-color: $color-amarillo;
-			opacity: 0.7;
-		}
+			img {
+				display: flex;
+				width: 1.25rem;
+				height: 1.25rem;
+			}
+		
+			&:hover {
+				background-color: $color-amarillo;
+				opacity: 0.7;
+			}
 	}
 }
 
@@ -141,7 +141,7 @@ main {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 300px 3.125rem;
 	gap: 0.3125rem;
-
+	background-color: $color-naranja;
 	.texto-comida1 {
 		grid-area: texto-comida1;
 		height: 12.5rem;
@@ -167,6 +167,7 @@ main {
 			width: 100%;
 			height: 100%;
 			margin: 0px;
+			font-size: 2.8125rem;
 		}
 	}
 	.imagenes-comida {
