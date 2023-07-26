@@ -7,21 +7,21 @@ Este es el sitio web de Burger Company, un negocio de comida rápida que ofrece 
 
 ## Páginas
 
-- [Inicio](index.html): Página de inicio que presenta una breve introducción sobre Burger Company y enlaces a otras secciones importantes del sitio.
+- [Inicio](https://leandroplaza94.github.io/burger-company/): Página de inicio que presenta una breve introducción sobre Burger Company y enlaces a otras secciones importantes del sitio.
 
-- [Menú](menu.html): Página que muestra las categorías principales del menú, incluyendo hamburguesas, acompañamientos y bebidas. Haz clic en cada enlace para ver más detalles.
+- [Menú](https://leandroplaza94.github.io/burger-company/pages/menu.html): Página que muestra las categorías principales del menú, incluyendo hamburguesas, acompañamientos y bebidas. Haz clic en cada enlace para ver más detalles.
 
-- [Hamburguesas](hamburguesas.html): Página dedicada a nuestras deliciosas hamburguesas. Descubre diferentes opciones y sabores únicos que te conquistarán.
+- [Hamburguesas](https://leandroplaza94.github.io/burger-company/pages/hamburguesas.html): Página dedicada a nuestras deliciosas hamburguesas. Descubre diferentes opciones y sabores únicos que te conquistarán.
 
-- [Acompañamientos](papas.html): Página que presenta una selección de acompañamientos, como papas fritas y nuggets, para complementar tu comida.
+- [Acompañamientos](https://leandroplaza94.github.io/burger-company/pages/papas.html): Página que presenta una selección de acompañamientos, como papas fritas y nuggets, para complementar tu comida.
 
-- [Bebidas](bebidas.html): Página que muestra una variedad de bebidas refrescantes, desde gaseosas hasta aguas saborizadas, para acompañar tu comida.
+- [Bebidas](https://leandroplaza94.github.io/burger-company/pages/bebidas.html): Página que muestra una variedad de bebidas refrescantes, desde gaseosas hasta aguas saborizadas, para acompañar tu comida.
 
-- [Contacto](contacto.html): Página de contacto donde puedes enviar tus consultas y comentarios directamente a Burger Company.
+- [Contacto](https://leandroplaza94.github.io/burger-company/pages/contacto.html): Página de contacto donde puedes enviar tus consultas y comentarios directamente a Burger Company.
 
-- [Ubicación](ubicacion.html): Página que muestra la ubicación de nuestros restaurantes para que puedas encontrarnos fácilmente.
+- [Ubicación](https://leandroplaza94.github.io/burger-company/pages/ubicacion.html): Página que muestra la ubicación de nuestros restaurantes para que puedas encontrarnos fácilmente.
 
-- [Carrito de Compras](carrito.html): Página que muestra los artículos seleccionados por el usuario para comprar. Calcula el total de la compra y permite realizar el pago.
+- [Carrito de Compras](https://leandroplaza94.github.io/burger-company/pages/carrito.html): Página que muestra los artículos seleccionados por el usuario para comprar. Calcula el total de la compra y permite realizar el pago.
 
 ## Enlaces a Redes Sociales
 
