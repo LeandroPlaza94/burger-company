@@ -401,7 +401,8 @@ button {
       grid-template-rows: 2.1875rem 1fr 2.1875rem;
       grid-template-areas: "texto-comida1 imagenes-comida" "texto-comida1 imagenes-comida" "texto-comida1 imagenes-comida"; }
       html .grid-container .comidas {
-        grid-template-rows: 9.375rem 1fr 2.1875rem; }
+        grid-template-rows: 9.375rem 1fr 2.1875rem;
+        width: 100%; }
       html .grid-container .texto-comida1 {
         display: flex;
         flex-direction: column;
@@ -409,6 +410,8 @@ button {
         width: 100%;
         padding-top: 0px;
         margin-right: 0rem; }
+        html .grid-container .texto-comida1 .imagenes-comida {
+          width: 100%; }
         html .grid-container .texto-comida1 p {
           display: flex;
           text-align: left;
@@ -428,24 +431,22 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.875rem; }
-    html .titulo {
-      width: 100%; }
-      html .titulo h1 {
-        font-size: 1.25rem; }
-      html .titulo .logo-negocio {
-        width: 1.875rem;
-        height: 1.875rem; }
-      html .titulo .carrito-header {
-        width: 2.5rem;
-        padding: 0rem 0rem; }
-        html .titulo .carrito-header .carrito-header img {
-          align-items: center;
-          display: flex;
-          margin-left: 0.625rem; }
-        html .titulo .carrito-header .carrito-header a {
-          width: 1.25rem;
-          height: 1.25rem; }
+        font-size: 0.875rem; }
+    html .titulo h1 {
+      font-size: 1.25rem; }
+    html .titulo .logo-negocio {
+      width: 1.875rem;
+      height: 1.875rem; }
+    html .titulo .carrito-header {
+      width: 1.5rem;
+      padding: 0rem 0rem; }
+      html .titulo .carrito-header .carrito-header img {
+        align-items: center;
+        display: flex;
+        margin-left: 0.625rem; }
+      html .titulo .carrito-header .carrito-header a {
+        width: 1.25rem;
+        height: 1.25rem; }
     html .botonera {
       display: flex;
       align-items: left;
@@ -480,6 +481,9 @@ button {
   h2 {
     font-size: 1.25rem; } }
 
+main a {
+  font-size: 1.8625rem; }
+
 .menu-index a {
   margin-left: 0rem;
   gap: none; }
@@ -491,7 +495,6 @@ html {
   background-color: #FBC252; }
 
 .container {
-  padding: 20px;
   border-radius: 5px;
   margin-top: 40px;
   height: 100%; }
