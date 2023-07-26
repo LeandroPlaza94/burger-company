@@ -45,7 +45,7 @@ header {
   align-items: flex-start;
   background-color: black;
   width: 100%;
-  height: 1.25rem; }
+  height: 2.25rem; }
 
 .logo-negocio {
   width: 3.125rem;
@@ -171,12 +171,12 @@ footer {
   footer .redes-sociales {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: rgba(200, 198, 198, 0.686);
     width: 12.5rem;
     height: 1.875rem;
     margin-top: 0rem;
-    border-radius: 0.3125rem;
-    padding-left: 2.1875rem; }
+    border-radius: 0.3125rem; }
     footer .redes-sociales a:hover img {
       opacity: 0.7; }
 
@@ -499,3 +499,59 @@ button {
 .menu-index a {
   margin-left: 0rem;
   gap: none; }
+
+body {
+  color: white; }
+
+html {
+  background-color: #FBC252; }
+
+.container {
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 40px;
+  height: 100%; }
+
+h1 {
+  color: brown; }
+
+th {
+  color: #FFB100; }
+
+.table {
+  color: white; }
+
+.card {
+  color: white;
+  margin-top: 20px; }
+  .card .card-title {
+    color: #FFB100; }
+  .card .card-text {
+    color: white; }
+
+.btn-primary {
+  background-color: #FFB100;
+  border-color: #FFB100; }
+  .btn-primary .btn-primary:hover {
+    background-color: #E69100;
+    border-color: #E69100; }
+
+.btn-danger {
+  background-color: #FF4545;
+  border-color: #FF4545; }
+  .btn-danger .btn-danger:hover {
+    background-color: #D32F2F;
+    border-color: #D32F2F; }
+
+.redes-sociales {
+  display: flex;
+  align-items: center;
+  width: 14.5rem;
+  height: 1.875rem;
+  margin-top: 50rem;
+  border-radius: 0.3125rem;
+  justify-content: space-between; }
+  .redes-sociales img {
+    display: flex;
+    align-items: space;
+    margin-left: 1.625rem; }

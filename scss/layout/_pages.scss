@@ -203,12 +203,13 @@ footer {
 	.redes-sociales {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		background-color: $color-gris-claro;
 		width: 12.5rem;
 		height: 1.875rem;
 		margin-top: 0rem;
 		border-radius: 0.3125rem;
-		padding-left: 2.1875rem;
+
 
 		a {
 			&:hover {
