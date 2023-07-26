@@ -15,19 +15,23 @@
 		"menu-index imagenes-index"
 		" . imagenes-index";
 	background-color: $color-naranja;
+
+		.menu-index {
+			grid-area: menu-index;
+			height: 3.125rem;
+			background-color: $color-naranja;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			gap: 0.5rem;
+		
+			a.botones-index {
+				height: 5rem;
+			}
+		}
 }
 
 
-.menu-index {
-	grid-area: menu-index;
-	height: 3.125rem;
-	background-color: $color-naranja;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	gap: 0.5rem;
-}
 
-a.botones-index {
-	height: 5rem;
-}
+
+

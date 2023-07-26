@@ -1,7 +1,5 @@
 @media (max-width: 768px) {
-	header {
-		justify-content: center;
-	}
+
 
 	nav {
 		width: 100%;
@@ -14,6 +12,52 @@
 		background-image: url('/assets/img/Burger-index.png');
 		background-repeat: no-repeat;
 		background-size: cover;
+		height: 100vh;
+
+			header {
+				justify-content: center;
+			}
+
+.titulo{
+	h1 {
+		font-size: 1.5625rem;
+	}
+	.logo-negocio {
+		height: 1.875rem;
+		width: 1.875rem;
+	}
+}
+		
+
+
+			main {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+
+
+				.comidas {
+					display: flex;
+					flex-direction: column;
+					background-color: none;
+					width: 100%;
+					.texto-comida1 {
+						width: 100%;
+						margin-top: 0.3125rem;
+						h2 {
+							color: $color-negro;
+							font-size: 1.5625rem;
+						}
+					}
+				}
+			}
+
+
+			footer {
+				background-color: transparent;
+			}
+
 	}
 
 	.comidas2 {
@@ -23,70 +67,26 @@
 		grid-template-areas:
 			" menu-index .";
 		height: 70%;
+
+		.menu-index a {
+			font-size: 20px;
+			display: flex;
+			margin: 0.3125rem;
+			gap: none;
+		}
+	
 	}
 
-	body {
-		height: 100vh;
-	}
-
-	h1 {
-		font-size: 1.875rem;
-	}
-
-	.comidas {
-		display: flex;
-		flex-direction: column;
-		background-color: none;
-		width: 100%;
-	}
-
-	.texto-comida1 {
-		width: 100%;
-		margin-top: 0.3125rem;
-	}
-
-	.menu-index a {
-		font-size: 20px;
-		display: flex;
-		margin: 0.3125rem;
-		gap: none;
-	}
-
-	main {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	h2 {
-		color: $color-negro;
-		font-size: 1.5625rem;
-	}
-
-	h1 {
-		font-size: 1.5625rem;
-	}
-
-	.logo-negocio {
-		height: 1.875rem;
-		width: 1.875rem;
-	}
 
 	.imagenes-index {
 		display: none;
 	}
 
-	footer {
-		background-color: transparent;
-	}
+
 	.comidas .texto-comida1 {
 		width: 100%;
 		height: 100%;
 	}
 
-	h2 {
-		font-size: 20px;
-	}
 }
 

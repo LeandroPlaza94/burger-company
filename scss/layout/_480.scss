@@ -6,78 +6,89 @@
 		background-image: url('/assets/img/Burger-index.png');
 		background-repeat: no-repeat;
 		background-size: cover;
+
+
+
+		main {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			
+			.comidas {
+				display: flex;
+				flex-direction: column;
+				background-color: none;
+				width: 100%;
+
+				h2 {
+					color: $color-negro;
+					font-size: 1.5625rem;
+				}
+			}
+		}
+
+			h1 {
+				font-size: 1.875rem;
+			}
+
+		
+			.comidas2 {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: 20rem;
+				grid-template-areas: " menu-index .";
+			}
+		
+			.menu-index a {
+				font-size: 20px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 25%;
+				gap: none;
+			}
+		
+		
+			
+		
+
+		
+
+		
+			p {
+				font-size: 0.7813rem;
+				padding-left: 0rem;
+				color: $color-negro;
+				margin-left: 0.625rem;
+			}
+		
+			h1 {
+				font-size: 1.5625rem;
+			}
+		
+			.agregar-carrito button {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 2.5rem;
+				font-size: 10px;
+			}
+		
+
+		
+			.comidas2 {
+				height: 70vh;
+				
+					a .botones-index {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 9.375rem;
+						margin: 0rem;
+			
+				}
+			}
+	}
 	}
 
-	h1 {
-		font-size: 1.875rem;
-	}
-	.comidas {
-		display: flex;
-		flex-direction: column;
-		background-color: none;
-		width: 100%;
-	}
-
-	.comidas2 {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: 20rem;
-		grid-template-areas: " menu-index .";
-	}
-
-	.menu-index a {
-		font-size: 20px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 25%;
-		gap: none;
-	}
-
-
-	
-
-	main {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	h2 {
-		color: $color-negro;
-		font-size: 1.5625rem;
-	}
-
-	p {
-		font-size: 0.7813rem;
-		padding-left: 0rem;
-		color: $color-negro;
-		margin-left: 0.625rem;
-	}
-
-	h1 {
-		font-size: 1.5625rem;
-	}
-
-	.agregar-carrito button {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 2.5rem;
-		font-size: 10px;
-	}
-
-	a .botones-index {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 9.375rem;
-		margin: 0rem;
-
-	}
-
-	.comidas2 {
-		height: 70vh;
-	}
-}
