@@ -183,8 +183,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 20rem 30rem;
-  grid-template-areas: " . imagenes-index" "menu-index imagenes-index" "menu-index imagenes-index" " . imagenes-index";
-  background-color: #FBC252; }
+  grid-template-areas: " . imagenes-index" "menu-index imagenes-index" "menu-index imagenes-index" " . imagenes-index"; }
   .comidas2 .menu-index {
     grid-area: menu-index;
     height: 3.125rem;
