@@ -292,7 +292,6 @@ button {
   body {
     overflow-x: hidden;
     background-color: none;
-    background-image: url("/assets/img/Burger-index.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh; }
@@ -342,7 +341,6 @@ button {
   body {
     overflow-x: hidden;
     background-color: none;
-    background-image: url("/assets/img/Burger-index.png");
     background-repeat: no-repeat;
     background-size: cover; }
     body main {
