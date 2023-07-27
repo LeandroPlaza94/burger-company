@@ -28,27 +28,6 @@ body {
     width: 3.125rem;
     height: 3.125rem;
     margin-left: 1rem; }
-  .titulo .carrito-header {
-    display: flex;
-    align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.5rem;
-    background-color: white;
-    color: #FBC252;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    padding-left: 0.375rem;
-    margin-right: 0.3125rem; }
-    .titulo .carrito-header img {
-      display: flex;
-      width: 1.25rem;
-      height: 1.25rem; }
-    .titulo .carrito-header:hover {
-      background-color: #FFB100;
-      opacity: 0.7; }
 
 header {
   display: flex;
@@ -220,7 +199,7 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: white;
-    background-color: #FFB100;
+    background-color: black;
     border: none;
     padding: 0.75rem 1rem;
     border-radius: 5px;
@@ -249,6 +228,30 @@ button {
   height: 1.875rem; }
   button:hover {
     background-color: #FBC252; }
+
+.carrito-header {
+  display: flex;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #FBC252;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-left: 0.375rem;
+  margin-right: 0.3125rem; }
+  .carrito-header img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem; }
+  .carrito-header:hover {
+    background-color: #FFB100;
+    opacity: 0.7; }
 
 .botones {
   padding: 10px 20px;
@@ -489,6 +492,10 @@ main a {
   .custom-button:hover, .btn-primary:hover, .btn-danger:hover {
     background-color: #E69100;
     border-color: #E69100; }
+
+.btn-primary {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem; }
 
 body {
   color: white;

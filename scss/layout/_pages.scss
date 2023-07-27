@@ -37,32 +37,7 @@ body {
 		margin-left: 1rem;
 	}
 
-	.carrito-header {
-		display: flex;
-		align-items: center;
-		width: 2.5rem;
-		height: 2.5rem;
-		font-size: 1.5rem;
-		background-color: $color-blanco;
-		color: $color-naranja;
-		border: none;
-		border-radius: 5px;
-		cursor: pointer;
-		transition: background-color 0.3s ease;
-		padding-left: 0.375rem;
-		margin-right: 0.3125rem;
 	
-		img {
-			display: flex;
-			width: 1.25rem;
-			height: 1.25rem;
-		}
-	
-		&:hover {
-			background-color: $color-amarillo;
-			opacity: 0.7;
-		}
-	}
 }
 
 

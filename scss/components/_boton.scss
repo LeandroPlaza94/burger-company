@@ -28,7 +28,7 @@
 		font-family: 'Roboto', sans-serif;
 		font-weight: bold;
 		color: $color-blanco;
-		background-color: $color-amarillo;
+		background-color: $color-negro;
 		border: none;
 		padding: 0.75rem 1rem;
 		border-radius: 5px;
@@ -65,6 +65,34 @@ button {
     }
 }
 
+.carrito-header {
+	display: flex;
+	align-items: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	font-size: 1.5rem;
+	background-color: $color-blanco;
+	color: $color-naranja;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	padding-left: 0.375rem;
+	margin-right: 0.3125rem;
+
+	img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	&:hover {
+		background-color: $color-amarillo;
+		opacity: 0.7;
+	}
+}
 
 .botones {
 	padding: 10px 20px;
