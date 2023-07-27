@@ -332,8 +332,8 @@ button {
       display: flex;
       margin: 0.3125rem;
       gap: none; }
-  .imagenes-index {
-    display: none; }
+    .comidas2 .imagenes-index {
+      display: none; }
   .comidas .texto-comida1 {
     width: 100%;
     height: 100%; } }
